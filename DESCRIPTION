@@ -1,0 +1,19 @@
+  Package: praiseR
+  Title: A Package for Praising Someone [or Even Yourself :)]
+  Version: 0.0.1
+  Authors@R: 
+      person(given = "Erika",
+             family = "Siregar",
+             role = c("aut", "cre"),
+             email = "erika.mukhlisina@gmail.com",
+             comment = c(ORCID = "YOUR-ORCID-ID"))
+  Description: Praise someone by typing his/her name and a specific punctuation (optional). 
+  License: `use_mit_license()`, `use_gpl3_license()` or friends to
+      pick a license
+  Encoding: UTF-8
+  LazyData: true
+  Roxygen: list(markdown = TRUE)
+  Depends:
+    glue, 
+    syn
+
